@@ -1,7 +1,19 @@
+@font-face {font-family: 'webfont';
+  src: url('//at.alicdn.com/t/jwspvhxbla9yhkt9.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/jwspvhxbla9yhkt9.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/jwspvhxbla9yhkt9.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/jwspvhxbla9yhkt9.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/jwspvhxbla9yhkt9.svg#思源黑体-极细') format('svg'); /* iOS 4.1- */
+}
 body {
 	font-family: 'EB Garamond', serif;
+  font-family:"webfont" !important;
 	font-size: 1.25rem;
 	color: #333;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a, a:visited, a:active, a:focus {
@@ -99,6 +111,7 @@ input:focus, textarea:focus {
 
 .nav-item {
 	font-family: 'Montserrat', sans-serif;
+  font-family:"webfont" !important;
 	text-transform: uppercase;
 	font-size: 0.8rem;
 	font-weight: 300;
@@ -159,6 +172,7 @@ input:focus, textarea:focus {
 .date {
 	color: #666;
 	font-family: 'Montserrat', sans-serif;
+  font-family:"webfont" !important;
 	text-transform: uppercase;
 	font-size: 0.7rem;
 	font-weight: 300;
@@ -191,6 +205,10 @@ input:focus, textarea:focus {
 
 .post-page h1 {
 	text-align: center;
+}
+
+.page-content img {
+  width: 100%;
 }
 
 .post-page hr {
